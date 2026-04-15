@@ -1,0 +1,30 @@
+# Data, models, outputs are reproduced by scripts — not tracked.
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+outputs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Env files
+.env
