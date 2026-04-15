@@ -11,6 +11,7 @@
 #SBATCH --job-name=neco-mlp
 #SBATCH --output=outputs/logs/slurm_mlp_%j.out
 #SBATCH --error=outputs/logs/slurm_mlp_%j.err
+#SBATCH --partition=gpu-a100
 #SBATCH --gres=gpu:1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=8G

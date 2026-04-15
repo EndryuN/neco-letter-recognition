@@ -1,9 +1,7 @@
 # Data, models, outputs are reproduced by scripts — not tracked.
 data/*
 !data/.gitkeep
-models/*
 !models/.gitkeep
-outputs/
 *.log
 
 # Python
