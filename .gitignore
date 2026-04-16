@@ -3,6 +3,8 @@ data/*
 !data/.gitkeep
 !models/.gitkeep
 *.log
+docs/
+scripts/md_to_docx.py
 
 # Python
 __pycache__/
